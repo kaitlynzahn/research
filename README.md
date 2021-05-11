@@ -6,7 +6,7 @@
 
 ### Getting Started with Flutter
 
-*Installing Flutter for Mac*
+*Installing Flutter for Mac* \n
 https://flutter.dev/docs/get-started/install/macos
 
 **System Requirements:**
