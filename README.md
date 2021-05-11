@@ -2,6 +2,14 @@
 
 ### Screenshots/Demo
 
+### File Descriptions
+- grocery_list is an application that displays a list and allows you to cross off items
+- myapp is a basic app that uses a button to increment a count
+- slider is an application that plays around with creating sliders
+- startup_namer is an application that
+- switchcodde is a basic app that uses switches
+- textfields is an app that experiments with textfields
+
 ## Documentation
 
 ### Getting Started with Flutter
