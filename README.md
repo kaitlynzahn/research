@@ -6,7 +6,7 @@
 
 ### Getting Started with Flutter
 
-*Installing Flutter for Mac* \n
+*Installing Flutter for Mac*  
 https://flutter.dev/docs/get-started/install/macos
 
 **System Requirements:**
@@ -14,13 +14,13 @@ https://flutter.dev/docs/get-started/install/macos
 - Disk Space: 2.8 GB
 - Tools: git, Xcode (recommended)
 
-**Download Flutter SDK**
-https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_2.0.6-stable.zip
+**Download Flutter SDK**  
+https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_2.0.6-stable.zip  
 
-Download the above zip file and unzip it in your desired location. Add the Flutter tool to your path using 'export PATH="$PATH:`pwd`/flutter/bin"' & now you can run Flutter commands! Run 'flutter doctor' to see if there are any dependencies you need to install to complete setup.
+Download the above zip file and unzip it in your desired location. Add the Flutter tool to your path using 'export PATH="$PATH:`pwd`/flutter/bin"' & now you can run Flutter commands! Run 'flutter doctor' to see if there are any dependencies you need to install to complete setup.  
 
 **Update Path**
-Update your PATH so that you can use Flutter commands in any terminal session. Do so by following these steps:
+Update your PATH so that you can use Flutter commands in any terminal session. Do so by following these steps:  
 1. Determine the path of your clone of the FLutter SDK
 2. Open or create the rc file for your shell (type 'echo $SHELL' to find out what shell you're using
 - If you're using Bash, edit $HOME/.bash_profile or $HOME/.bashrc
@@ -37,23 +37,30 @@ Update your PATH so that you can use Flutter commands in any terminal session. D
 *Installing Xcode*
 1. Install the latest stable version of Xcode in the app store or using this web download: https://developer.apple.com/xcode/
 2. Configure Xcode command line tools by running 'sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer' and then 'sudo xcodebuild -runFirstLaunch'
-3. Make sure you agree to the Xcode licence by running 'sudo xcodebuild -llicense'
+3. Make sure you agree to the Xcode licence by running 'sudo xcodebuild -llicense'  
 
 *Set up the iOS simulator*
-1. Find the Simulator using Spotlight or by running 'open -a Simulator'
+1. Find the Simulator using Spotlight or by running 'open -a Simulator'  
 
 *Create and Run a Flutter App*
 1. Create your app by running 'flutter create my_app'
 2. Navigate into that directory using 'cd my_app'
-3. To launch the app in the Simulator, ensure that the Simulator is running and enter 'flutter run'
+3. To launch the app in the Simulator, ensure that the Simulator is running and enter 'flutter run'  
 
 **Android Setup**
 *Install Android Studio*
 1. Download and install Android Studio using this: https://developer.android.com/studio
-2. Start Studio and go through the "Android Studio Setup Wizard" to install the latest SDK, command line tools, and buidl tools which are required by Flutter
+2. Start Studio and go through the "Android Studio Setup Wizard" to install the latest SDK, command line tools, and buidl tools which are required by Flutter  
 
 *Set up your Android Device*
-...coming
+...coming  
+
+**Setting up VS Code**
+1. Start VS Code
+2. Invoke View > Command Palette
+3. Type "install" and select Extensions: Install Extensions
+4. Type "flutter" in the extensions search field, select Flutter in the list, and click Install (this also installs the required Dart plugin)
+5. Validate your setup by invoking View > Command Palette and typing "doctor" then selecting Flutter: Run Flutter Doctor and review the output in the OUTPUT pane for any issues
 
 
 ### Tutorials
