@@ -84,5 +84,6 @@ Update your PATH so that you can use Flutter commands in any terminal session. D
 
 
 ### Tutorials
+- Navigation: https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
 
 ### Helpful Hints
