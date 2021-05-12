@@ -5,6 +5,7 @@
 ### File Descriptions
 - grocery_list is an application that displays a list and allows you to cross off items
 - myapp is a basic app that uses a button to increment a count
+- navigation is an application that uses buttons to push and pop pages off for navigation
 - slider is an application that plays around with creating sliders
 - startup_namer is an application that combines two randomly generated English words and allows the user to favorite combinations. Then, the user can navigate to a page that displays their favorites
 - switchcodde is a basic app that uses switches
