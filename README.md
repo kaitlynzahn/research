@@ -3,6 +3,7 @@
 ### Screenshots/Demo
 
 ### File Descriptions
+- anomolyolly is an application that begins that navigation and bare bones of the app
 - grocery_list is an application that displays a list and allows you to cross off items
 - myapp is a basic app that uses a button to increment a count
 - navigation is an application that uses buttons to push and pop pages off for navigation
