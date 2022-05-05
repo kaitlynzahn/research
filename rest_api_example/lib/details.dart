@@ -6,6 +6,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:rest_api_example/post_model.dart';
+import 'package:rest_api_example/repos.dart';
 
 class DetailsPage extends StatefulWidget {
   // In the constructor, require a repo to be sent
@@ -30,11 +31,11 @@ class _DetailsPageState extends State<DetailsPage> {
   *
   */
   bool isSwitched1 = false;
-  var textValue1 = 'Switch is OFF';
+  var textValue1 = 'Do not receive notifications for repo status changes';
   bool isSwitched2 = false;
-  var textValue2 = 'Switch is OFF';
+  var textValue2 = 'Do not receive notifications for commits';
   bool isSwitched3 = false;
-  var textValue3 = 'Switch is OFF';
+  var textValue3 = 'Do not receive notifications for issues';
 
   /*
   *
@@ -49,12 +50,12 @@ class _DetailsPageState extends State<DetailsPage> {
     if (isSwitched1 == true) {
       setState(() {
         isSwitched1 = false;
-        textValue1 = 'Switch Button is OFF';
+        textValue1 = 'Do not receive notifications for repo status changes';
       });
     } else {
       setState(() {
         isSwitched1 = true;
-        textValue1 = 'Switch Button is ON';
+        textValue1 = 'Receive notifications for repo status changes';
       });
     }
   }
@@ -66,12 +67,12 @@ class _DetailsPageState extends State<DetailsPage> {
     if (isSwitched2 == true) {
       setState(() {
         isSwitched2 = false;
-        textValue2 = 'Switch Button is OFF';
+        textValue2 = 'Do not receive notifications for commits';
       });
     } else {
       setState(() {
         isSwitched2 = true;
-        textValue2 = 'Switch Button is ON';
+        textValue2 = 'Receive notifications for commits';
       });
     }
   }
@@ -83,12 +84,12 @@ class _DetailsPageState extends State<DetailsPage> {
     if (isSwitched3 == true) {
       setState(() {
         isSwitched3 = false;
-        textValue3 = 'Switch Button is OFF';
+        textValue3 = 'Do not receive notifications for issues';
       });
     } else {
       setState(() {
         isSwitched3 = true;
-        textValue3 = 'Switch Button is ON';
+        textValue3 = 'Receive notifications for issues';
       });
     }
   }
@@ -111,6 +112,15 @@ class _DetailsPageState extends State<DetailsPage> {
         appBar: AppBar(
           title: Text(widget.repo.repo_name),
           backgroundColor: AppColors.darkPurple,
+          actions: <Widget>[
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text("Save",
+                  style: TextStyle(color: Colors.white, fontSize: 18)),
+            ),
+          ],
         ),
         /*
         * actual body of the app
@@ -136,13 +146,18 @@ class _DetailsPageState extends State<DetailsPage> {
                           widget.repo.repo_name +
                           "?",
                       style: TextStyle(
-                          fontSize: 22, color: AppColors.plumPurple))),
-              const SizedBox(height: 40),
+                          fontSize: 22,
+                          color: AppColors.plumPurple,
+                          fontWeight: FontWeight.bold))),
+              const SizedBox(height: 30),
               /*
               * switch 1
               */
               Text('$textValue1',
-                  style: TextStyle(fontSize: 18, color: AppColors.palePink)),
+                  style: TextStyle(
+                      fontSize: 18,
+                      color: AppColors.palePink,
+                      fontStyle: FontStyle.italic)),
               Transform.scale(
                   scale: 2,
                   child: Switch(
@@ -163,7 +178,10 @@ class _DetailsPageState extends State<DetailsPage> {
               */
               Text(
                 '$textValue2',
-                style: TextStyle(fontSize: 18, color: AppColors.palePink),
+                style: TextStyle(
+                    fontSize: 18,
+                    color: AppColors.palePink,
+                    fontStyle: FontStyle.italic),
               ),
               Transform.scale(
                   scale: 2,
@@ -186,7 +204,10 @@ class _DetailsPageState extends State<DetailsPage> {
               */
               Text(
                 '$textValue3',
-                style: TextStyle(fontSize: 18, color: AppColors.palePink),
+                style: TextStyle(
+                    fontSize: 18,
+                    color: AppColors.palePink,
+                    fontStyle: FontStyle.italic),
               ),
               Transform.scale(
                   scale: 2,
