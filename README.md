@@ -6,7 +6,7 @@ https://www.canva.com/design/DAE_TWreeeI/jigxhwEOe-ja8FpscKIrBw/view?utm_content
 ### Screenshots/Demo
 
 ### File Descriptions
-##### - anomolyolly is the final version of the application
+- anomolyolly is the final version of the application
 - design_update is a pdf containing app UI ideas & planning
 - dynamic_page is an application that shows how to navigate to a dynamic page while sending data
 - grocery_list is an application that displays a list and allows you to cross off items
