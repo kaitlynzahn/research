@@ -93,14 +93,14 @@ Update your PATH so that you can use Flutter commands in any terminal session. D
 
 
 ### Resources
-https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
-https://www.codewithflutter.com/flutter-fetch-data-from-api-rest-api-example/
-https://blog.logrocket.com/how-to-create-search-bar-flutter/
-https://docs.flutter.dev/cookbook/navigation/passing-data
-https://medium.com/@dotronglong/sign-in-with-github-in-flutter-8649ab78f5d6
-https://github.com/settings/applications/new
-https://www.geeksforgeeks.org/splash-screen-in-flutter/
-https://www.youtube.com/watch?v=XXISgdYHdYw&t=162s
-https://medium.com/@aruny3/how-to-use-changenotifier-in-flutter-440371617b8c
-https://www.kindacode.com/article/flutter-listview-pagination-load-more/#The_Code
-https://www.javatpoint.com/flutter-switch
+- https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
+- https://www.codewithflutter.com/flutter-fetch-data-from-api-rest-api-example/
+- https://blog.logrocket.com/how-to-create-search-bar-flutter/
+- https://docs.flutter.dev/cookbook/navigation/passing-data
+- https://medium.com/@dotronglong/sign-in-with-github-in-flutter-8649ab78f5d6
+- https://github.com/settings/applications/new
+- https://www.geeksforgeeks.org/splash-screen-in-flutter/
+- https://www.youtube.com/watch?v=XXISgdYHdYw&t=162s
+- https://medium.com/@aruny3/how-to-use-changenotifier-in-flutter-440371617b8c
+- https://www.kindacode.com/article/flutter-listview-pagination-load-more/#The_Code
+- https://www.javatpoint.com/flutter-switch
