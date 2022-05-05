@@ -1,6 +1,6 @@
-# rest_api_example
+# anomaly_olly
 
-A new Flutter project.
+CS 8980 Final Project
 
 ## Getting Started
 
