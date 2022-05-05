@@ -1,12 +1,20 @@
 # Flutter Research for Augur
 
+### Presentation
+https://www.canva.com/design/DAE_TWreeeI/jigxhwEOe-ja8FpscKIrBw/view?utm_content=DAE_TWreeeI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ### Screenshots/Demo
 
 ### File Descriptions
-- anomolyolly is an application that begins that navigation and bare bones of the app
+##### - anomolyolly is the final version of the application
+- design_update is a pdf containing app UI ideas & planning
+- dynamic_page is an application that shows how to navigate to a dynamic page while sending data
 - grocery_list is an application that displays a list and allows you to cross off items
-- myapp is a basic app that uses a button to increment a count
+- login is an application that implements a user login via gihub
+- myapp is a basic app that uses a button to increment a count (original flutter tutorial)
 - navigation is an application that uses buttons to push and pop pages off for navigation
+- practice_api is an application that loads in data from an API
+- search and searchbar are applications that experiment with implementing search bars
 - slider is an application that plays around with creating sliders
 - startup_namer is an application that combines two randomly generated English words and allows the user to favorite combinations. Then, the user can navigate to a page that displays their favorites
 - switchcodde is a basic app that uses switches
@@ -84,7 +92,15 @@ Update your PATH so that you can use Flutter commands in any terminal session. D
 3. Ensure the Simulator is running and then do Run > Start Debugging
 
 
-### Tutorials
-- Navigation: https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
-
-### Helpful Hints
+### Resources
+https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
+https://www.codewithflutter.com/flutter-fetch-data-from-api-rest-api-example/
+https://blog.logrocket.com/how-to-create-search-bar-flutter/
+https://docs.flutter.dev/cookbook/navigation/passing-data
+https://medium.com/@dotronglong/sign-in-with-github-in-flutter-8649ab78f5d6
+https://github.com/settings/applications/new
+https://www.geeksforgeeks.org/splash-screen-in-flutter/
+https://www.youtube.com/watch?v=XXISgdYHdYw&t=162s
+https://medium.com/@aruny3/how-to-use-changenotifier-in-flutter-440371617b8c
+https://www.kindacode.com/article/flutter-listview-pagination-load-more/#The_Code
+https://www.javatpoint.com/flutter-switch
