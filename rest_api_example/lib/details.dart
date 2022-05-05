@@ -149,7 +149,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           fontSize: 22,
                           color: AppColors.plumPurple,
                           fontWeight: FontWeight.bold))),
-              const SizedBox(height: 30),
+              const SizedBox(height: 25),
               /*
               * switch 1
               */
