@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rest_api_example">
    <application
-        android:label="rest_api_example"
+        android:label="anomaly_olly"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
