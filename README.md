@@ -110,3 +110,4 @@ Update your PATH so that you can use Flutter commands in any terminal session. D
 - https://medium.com/@aruny3/how-to-use-changenotifier-in-flutter-440371617b8c
 - https://www.kindacode.com/article/flutter-listview-pagination-load-more/#The_Code
 - https://www.javatpoint.com/flutter-switch
+- https://stackoverflow.com/questions/53745546/how-to-rotate-an-image-using-flutter-animationcontroller-and-transform
