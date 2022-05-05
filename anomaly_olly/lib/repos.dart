@@ -1,5 +1,6 @@
 import 'main.dart';
 import 'dart:convert';
+import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -38,7 +39,11 @@ Future<List<Repos>> fetchRepos() async {
 *
 *
 */
-class ReposPage extends State<MyApp> {
+class ReposPage extends State<MyApp> with SingleTickerProviderStateMixin {
+  late final AnimationController _controller =
+      AnimationController(vsync: this, duration: Duration(seconds: 2))
+        ..repeat();
+
   // initializing the state by fetching the repos
   @override
   void initState() {
@@ -143,12 +148,15 @@ class ReposPage extends State<MyApp> {
             // while the data is still loading
             if (snapshot.connectionState != ConnectionState.done) {
               // return const Center(child: CircularProgressIndicator());
-              return Center(
-                child: Column(
-                  children: <Widget>[
-                    Image.asset('assets/olly.png'),
-                  ],
-                ),
+              return AnimatedBuilder(
+                animation: _controller,
+                builder: (_, child) {
+                  return Transform.rotate(
+                    angle: _controller.value * 2 * math.pi,
+                    child: child,
+                  );
+                },
+                child: Image.asset('assets/olly.png'),
               );
             }
             // display the data when the data is done loading
