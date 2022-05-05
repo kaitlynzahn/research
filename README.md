@@ -6,7 +6,8 @@ Anomaly Olly is the first iteration of a cross-platform mobile and web applicati
 ### Presentation
 https://www.canva.com/design/DAE_TWreeeI/jigxhwEOe-ja8FpscKIrBw/view?utm_content=DAE_TWreeeI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-### Screenshots/Demo
+### Demo
+https://github.com/kaitlynzahn/research/blob/main/demo.mov
 
 ### Running the App on Your Device
 To download and run, download the anomaly_olly application. Follow the documentation below to run a Flutter application.
