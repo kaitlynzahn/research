@@ -1,9 +1,15 @@
-# Flutter Research for Augur
+# Anomaly Olly
+
+### Project Description
+Anomaly Olly is the first iteration of a cross-platform mobile and web application to allow users to track augur data in an engaging and notification-centered environment. This application was implemented by Kaitlyn Zahn for CS 8980, Masters Project, under the advisement of Sean Goggins. The goals of this project were to focus on planning and designinig a fun UI, learning Flutter, establishing building blocks for future iterations of Anomaly Olly, and establishing a bare bones application.
 
 ### Presentation
 https://www.canva.com/design/DAE_TWreeeI/jigxhwEOe-ja8FpscKIrBw/view?utm_content=DAE_TWreeeI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ### Screenshots/Demo
+
+### Running the App on Your Device
+To download and run, download the anomaly_olly application. Follow the documentation below to run a Flutter application.
 
 ### File Descriptions
 - anomolyolly is the final version of the application
